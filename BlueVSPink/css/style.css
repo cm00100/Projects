@@ -1,0 +1,85 @@
+body
+{
+    background-color: black;
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+   min-width: 960px !important;
+    
+}
+
+
+
+#content
+{
+    background: linear-gradient(to bottom, #660066 0%, #9900cc 91%);  
+    width: 30%;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    padding: 20px;
+    margin-top: 0px;    
+   
+    
+}
+
+#playButton
+{
+  
+    text-align: center;
+}
+
+
+#playerInfo
+{
+    height: 210px;
+    width: 200px;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    top: 100px;
+    left: 60px;
+    position:absolute;
+}
+
+#playerInfo2
+{
+
+    padding: 20px;
+    border-radius: 50px;
+    border: 4px solid #fff;
+    color: white;
+    font-size: 25px;
+    top: 420px;
+    left: 60px;
+    position:absolute;
+}
+
+
+input[type=submit] {
+    display: inline-block;
+    padding: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6600cc;
+    border: solid;
+    margin-bottom: 20px;
+    box-shadow: 0 9px #999;
+}
+
+input[type=submit]:hover 
+{
+    background-color:blue;
+}
+
+input[type=submit]:active 
+{
+  background-color: #421b51;
+  box-shadow: 0 5px #333232;
+  transform: translateY(4px);
+
+}
